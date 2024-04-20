@@ -1,0 +1,6 @@
+# .gitignore of cabane
+/node_modules/
+build
+dist
+tmp
+/output/
