@@ -1,0 +1,26 @@
+{
+  "lastModif": "20240420_220435",
+  "partName": "cabane_plancher",
+  "pVal": {
+    "N1": 8,
+    "N2": 13,
+    "W1": 200,
+    "W2": 200,
+    "Pilotis face": 0,
+    "H1": 400,
+    "H2": 150,
+    "H3": 150,
+    "W3": 150,
+    "a1": 80,
+    "W4": 150,
+    "W5": 135,
+    "E1": 200,
+    "Pilotis side": 0,
+    "T1": 20,
+    "ES1": 0.2,
+    "ES2": 0.2,
+    "S1": 200,
+    "S2": 100
+  },
+  "comment": "Written by geom_cli"
+}
