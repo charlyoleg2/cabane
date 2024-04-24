@@ -28,6 +28,17 @@ For Ubuntu users, *OpenSCAD* is available on [snapcraft](https://snapcraft.io/op
 sudo snap install openscad
 ```
 
+Upgrade
+-------
+
+For working with the latest *desi78* version:
+
+```bash
+npm outdated
+npm update --save
+git commit -am 'npm update --save'
+```
+
 
 Dev
 ---
