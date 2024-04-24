@@ -6,7 +6,8 @@ import { promisify } from 'util';
 
 const c_Parts = {
 	cabane_plancher: 'cabane_plancher_v01',
-	cabane: 'cabane_v01'
+	cabane: 'cabane_v01',
+	door: 'door_v01'
 };
 
 function inferDesignName(instanceName) {

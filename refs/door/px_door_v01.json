@@ -1,0 +1,17 @@
+{
+  "lastModif": "20240424_205757",
+  "partName": "door",
+  "pVal": {
+    "L1": 1200,
+    "L2": 200,
+    "W1": 1000,
+    "Heights": 0,
+    "H1": 500,
+    "H2": 1600,
+    "H3": 200,
+    "Details": 0,
+    "R1": 200,
+    "R2": 1000
+  },
+  "comment": "Written by geom_cli"
+}
