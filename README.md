@@ -8,6 +8,8 @@ Presentation
 This repo stores the parameters and the STL-files for a *cabane*.
 This repo uses the javascript packages [desi78-cli](https://www.npmjs.com/package/desi78-cli) and [desi78-uis](https://www.npmjs.com/package/desi78-uis).
 
+This repo is a typical repository of maker.
+
 
 Requirements
 ------------
@@ -49,8 +51,8 @@ Vocabulary
 - Instance: The realization of a reference.
 
 
-References for the heliostat model
-----------------------------------
+References for the cabane
+-------------------------
 
 ID | Reference           | Design             | Nb of instances
 ---|---------------------|--------------------|----------------
