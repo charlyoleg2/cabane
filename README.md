@@ -5,7 +5,7 @@ Cabane
 Presentation
 ------------
 
-This repo is a maker-repository. It stores the parameters and the STL-files for a *cabane*.
+This repo is a maker-repository. It stores the parameters and the STL-files of a *cabane*.
 This repo uses the javascript packages [desi78-cli](https://www.npmjs.com/package/desi78-cli) and [desi78-uis](https://www.npmjs.com/package/desi78-uis) of the design-library [desi78](https://charlyoleg2.github.io/parame78/).
 
 
