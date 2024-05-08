@@ -1,0 +1,7 @@
+cabane_plancher simTime: 0
+cabane-plancher-size: A: 1601.40 mm, B: 2602.40 mm, surface: 4.17 m2
+Comparison with the golden-ratio: B/A: 1.63   100.44 %
+beam-bevel: W5b: 15.00 mm, H3b: 85.07 mm
+buttress-length: 626.77 mm
+leg-length: 432.62 mm
+cabane_plancher drawn successfully!

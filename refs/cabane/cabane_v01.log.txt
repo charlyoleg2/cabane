@@ -1,0 +1,14 @@
+cabane simTime: 0
+cabane-plancher-size: A: 1600.00 m, B: 2600.00 m, surface: 4160000.00 m2
+Comparison with the golden-ratio: B/A: 1.63   100.43 %
+roof angles: left: 33.69 degree, right: 47.73 degree
+side-wall angles: left: 81.31 degree, right: 84.18 degree
+roof: length-max: 3400.00 mm, back-max: 300.00 mm, front-max: 500.00 mm
+[cabane_plancher]: cabane_plancher simTime: 0
+[cabane_plancher]: cabane-plancher-size: A: 1600.00 mm, B: 2600.00 mm, surface: 4.16 m2
+[cabane_plancher]: Comparison with the golden-ratio: B/A: 1.63   100.43 %
+[cabane_plancher]: beam-bevel: W5b: 1.00 mm, H3b: 5.67 mm
+[cabane_plancher]: buttress-length: 1119.53 mm
+[cabane_plancher]: leg-length: 420.28 mm
+[cabane_plancher]: cabane_plancher drawn successfully!
+cabane drawn successfully!
