@@ -1,0 +1,26 @@
+{
+  "lastModif": "20240508_174457",
+  "partName": "reinforced_tube",
+  "pVal": {
+    "D1L": 50,
+    "H1": 30,
+    "E1": 1,
+    "Wave": 0,
+    "E2": 1,
+    "N2": 10,
+    "W2_method": 0,
+    "RW2": 50,
+    "W2": 5,
+    "S23L": 10,
+    "D2_method": 0,
+    "Rvw": 50,
+    "D2": 20,
+    "D3_method": 0,
+    "R32": 50,
+    "D3": 20,
+    "Optional internal cylinder": 0,
+    "internal_cylinder": 0,
+    "E4": 2
+  },
+  "comment": ""
+}
