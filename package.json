@@ -17,7 +17,7 @@
 		"plancher_stl": "openscad -o refs/plancher/plancher_v01.stl refs/plancher/plancher_v01.scad",
 		"make_cabane": "node make_cabane.js",
 		"git_clean": "git clean -f",
-		"ls_output": "ls -ltra output"
+		"ls_refs": "ls -ltra refs"
 	},
 	"repository": {
 		"type": "git",
