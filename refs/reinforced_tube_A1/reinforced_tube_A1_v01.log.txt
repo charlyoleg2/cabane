@@ -1,12 +1,12 @@
 reinforced_tube simTime: 0
-External cylinder: D1Le: 50 mm, D1Li: 48.00 mm, corde-ext: 157.08 mm, corde-int: 150.80 mm
+External cylinder: D1Le: 50 mm, D1Li: 48.00 mm, corde-ext: 157.08 mm, corde-int: 150.80 mm, diff: 6.28 mm
 Period: angle: 36.00 degree, corde-ext: 15.08 mm
 W2: angle: 18.00 degree or 50.00 %, corde-ext: 7.54 mm, corde-int: 7.23 mm, W2bis: 7.20 mm
 Wave: angle: 18.00 degree or 50.00 %, corde-ext: 7.54 mm
 D2: 1.49 mm, R2i: 0.75 mm, R2e: 1.75 mm
 D3: 1.49 mm, R3i: 0.75 mm, R3e: 1.75 mm
 af: 8.75 degree, afDiff: 2.39 degree
-Wave-internal length: 279.10 mm
-Wave-external length: 285.38 mm
-Wave-average length: 282.24 mm
+info253: Wave-internal length: 279.10 mm
+info254: Wave-external length: 285.38 mm
+info255: Wave-average length: 282.24 mm, diff: 6.28 mm
 reinforced_tube drawn successfully!
