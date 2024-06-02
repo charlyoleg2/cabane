@@ -32,7 +32,7 @@ function getCmd(dName, fName) {
 	//rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.scad write scad_3d_openscad`);
 	//rCmd.push(`openscad -o refs/${dName}/${fName}.stl refs/${dName}/${fName}.scad`);
 	// FreeCAD
-	rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.py write scad_3d_openscad`);
+	rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.py write py_3d_freecad`);
 	rCmd.push(`freecad.cmd refs/${dName}/${fName}.py refs/${dName}/${fName}`);
 	//rCmd.push(`npx shx rm -fr refs/${dName}`);
 	return rCmd
