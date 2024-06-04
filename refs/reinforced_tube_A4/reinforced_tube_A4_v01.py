@@ -359,7 +359,7 @@ def ctr_face_reinforced_tube_faceTopWave_Fa0_Ctr0():
 	S118 = Part.LineSegment(P197, P198)
 	P199 = App.Vector(23.8703, -0.6101, 0)
 	P200 = App.Vector(24.0000, -0.0000, 0)
-	S119 = Part.Arc(P198, P199, P200)
+	S119 = Part.Arc(P198, P199, P000)
 	aShape = Part.Shape([S000, S001, S002, S003, S004, S005, S006, S007, S008, S009, S010, S011, S012, S013, S014, S015, S016, S017, S018, S019, S020, S021, S022, S023, S024, S025, S026, S027, S028, S029, S030, S031, S032, S033, S034, S035, S036, S037, S038, S039, S040, S041, S042, S043, S044, S045, S046, S047, S048, S049, S050, S051, S052, S053, S054, S055, S056, S057, S058, S059, S060, S061, S062, S063, S064, S065, S066, S067, S068, S069, S070, S071, S072, S073, S074, S075, S076, S077, S078, S079, S080, S081, S082, S083, S084, S085, S086, S087, S088, S089, S090, S091, S092, S093, S094, S095, S096, S097, S098, S099, S100, S101, S102, S103, S104, S105, S106, S107, S108, S109, S110, S111, S112, S113, S114, S115, S116, S117, S118, S119])
 	aWire = Part.Wire(aShape.Edges)
 	subFace = Part.Face(aWire)
@@ -687,7 +687,7 @@ def ctr_face_reinforced_tube_faceTopWave_Fa0_Ctr1():
 	S118 = Part.LineSegment(P197, P198)
 	P199 = App.Vector(22.9568, -0.2034, 0)
 	P200 = App.Vector(23.0000, -0.0000, 0)
-	S119 = Part.Arc(P198, P199, P200)
+	S119 = Part.Arc(P198, P199, P000)
 	aShape = Part.Shape([S000, S001, S002, S003, S004, S005, S006, S007, S008, S009, S010, S011, S012, S013, S014, S015, S016, S017, S018, S019, S020, S021, S022, S023, S024, S025, S026, S027, S028, S029, S030, S031, S032, S033, S034, S035, S036, S037, S038, S039, S040, S041, S042, S043, S044, S045, S046, S047, S048, S049, S050, S051, S052, S053, S054, S055, S056, S057, S058, S059, S060, S061, S062, S063, S064, S065, S066, S067, S068, S069, S070, S071, S072, S073, S074, S075, S076, S077, S078, S079, S080, S081, S082, S083, S084, S085, S086, S087, S088, S089, S090, S091, S092, S093, S094, S095, S096, S097, S098, S099, S100, S101, S102, S103, S104, S105, S106, S107, S108, S109, S110, S111, S112, S113, S114, S115, S116, S117, S118, S119])
 	aWire = Part.Wire(aShape.Edges)
 	subFace = Part.Face(aWire)
@@ -721,7 +721,7 @@ def ctr_face_reinforced_tube_faceSide_Fa0_Ctr0():
 	P003 = App.Vector(-25.0000, 30.0000, 0)
 	S002 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(-25.0000, 0.0000, 0)
-	S003 = Part.LineSegment(P003, P004)
+	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
 	subFace = Part.Face(aWire)
@@ -743,7 +743,7 @@ def ctr_face_reinforced_tube_faceSide_Fa1_Ctr0():
 	P003 = App.Vector(24.0000, 30.0000, 0)
 	S002 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(24.0000, 0.0000, 0)
-	S003 = Part.LineSegment(P003, P004)
+	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
 	subFace = Part.Face(aWire)
@@ -766,24 +766,30 @@ def reinforced_tube_faceSide():
 def fex_subpax_reinforced_tube_topExt():
 	FIG = reinforced_tube_faceTopExt()
 	VEX = FIG.extrude(App.Vector(0, 0, 30))
-	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0)
-	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0)
-	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0)
-	VFP = VR3.translate(App.Vector(0, 0, 0))
+	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
+	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
+	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 0.0000))
 	return VFP
 subpax_reinforced_tube_topExt = fex_subpax_reinforced_tube_topExt()
 
 def fex_subpax_reinforced_tube_topWave():
 	FIG = reinforced_tube_faceTopWave()
 	VEX = FIG.extrude(App.Vector(0, 0, 30))
-	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0)
-	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0)
-	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0)
-	VFP = VR3.translate(App.Vector(0, 0, 0))
+	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
+	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
+	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 0.0000))
 	return VFP
 subpax_reinforced_tube_topWave = fex_subpax_reinforced_tube_topWave()
 
-pax_reinforced_tube = subpax_reinforced_tube_topExt.fuse([subpax_reinforced_tube_topWave])
+def fvol_pax_reinforced_tube():
+	V000 = subpax_reinforced_tube_topExt
+	V001 = V000.fuse(subpax_reinforced_tube_topWave)
+	VFC = V001.removeSplitter()
+	return VFC
+pax_reinforced_tube = fvol_pax_reinforced_tube()
+
 
 pax_reinforced_tube.check()
 #pax_reinforced_tube.exportBrep(f"{outFileName}.brep")
