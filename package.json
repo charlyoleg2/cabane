@@ -19,6 +19,7 @@
 		"git_clean": "git clean -f",
 		"install_jscad": "npm install --prefix=refs @jscad/cli",
 		"check_jscad": "npx --prefix=refs jscad -v",
+		"clean_jscad": "shx rm -fr refs/node_modules refs/package-lock.json refs/package.json",
 		"ls_refs": "ls -ltra refs"
 	},
 	"repository": {
@@ -37,6 +38,7 @@
 	"homepage": "https://github.com/charlyoleg2/cabane#readme",
 	"devDependencies": {
 		"desi78-cli": "^0.1.14",
-		"desi78-uis": "^0.1.14"
+		"desi78-uis": "^0.1.14",
+		"shx": "^0.3.4"
 	}
 }
