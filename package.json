@@ -17,6 +17,8 @@
 		"plancher_stl": "openscad -o refs/plancher/plancher_v01.stl refs/plancher/plancher_v01.scad",
 		"make_cabane": "node make_cabane.js",
 		"git_clean": "git clean -f",
+		"install_jscad": "npm install --prefix=refs @jscad/cli",
+		"check_jscad": "npx --prefix=refs jscad -v",
 		"ls_refs": "ls -ltra refs"
 	},
 	"repository": {
