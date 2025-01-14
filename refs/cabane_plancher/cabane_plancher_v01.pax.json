@@ -1,0 +1,1296 @@
+{
+  "partName": "cabane_plancher",
+  "pDef": {
+    "partName": "cabane_plancher",
+    "params": [
+      {
+        "name": "N1",
+        "unit": "planches",
+        "init": 8,
+        "min": 2,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "N2",
+        "unit": "planches",
+        "init": 13,
+        "min": 2,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W1",
+        "unit": "mm",
+        "init": 200,
+        "min": 20,
+        "max": 800,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W2",
+        "unit": "mm",
+        "init": 200,
+        "min": 20,
+        "max": 800,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Pilotis face",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 400,
+        "min": 10,
+        "max": 2000,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H2",
+        "unit": "mm",
+        "init": 150,
+        "min": 10,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H3",
+        "unit": "mm",
+        "init": 150,
+        "min": 10,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W3",
+        "unit": "mm",
+        "init": 150,
+        "min": 10,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "a1",
+        "unit": "degree",
+        "init": 80,
+        "min": 20,
+        "max": 90,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W4",
+        "unit": "mm",
+        "init": 150,
+        "min": 10,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W5",
+        "unit": "mm",
+        "init": 135,
+        "min": 10,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E1",
+        "unit": "mm",
+        "init": 200,
+        "min": 0,
+        "max": 1000,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Pilotis side",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "T1",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ES1",
+        "unit": "mm",
+        "init": 0.2,
+        "min": 0,
+        "max": 2,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ES2",
+        "unit": "mm",
+        "init": 0.2,
+        "min": 0,
+        "max": 2,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S1",
+        "unit": "mm",
+        "init": 200,
+        "min": 0,
+        "max": 1000,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S2",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 400,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "N1": "cabane_plancher_top.svg",
+      "N2": "cabane_plancher_bottom.svg",
+      "W1": "cabane_plancher_top.svg",
+      "W2": "cabane_plancher_bottom.svg",
+      "H1": "cabane_plancher_face.svg",
+      "H2": "cabane_plancher_face.svg",
+      "H3": "cabane_plancher_face.svg",
+      "W3": "cabane_plancher_face.svg",
+      "a1": "cabane_plancher_face.svg",
+      "W4": "cabane_plancher_face.svg",
+      "W5": "cabane_plancher_face.svg",
+      "E1": "cabane_plancher_face.svg",
+      "T1": "cabane_plancher_face.svg",
+      "ES1": "cabane_plancher_top.svg",
+      "ES2": "cabane_plancher_bottom.svg",
+      "S1": "cabane_plancher_side.svg",
+      "S2": "cabane_plancher_side.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "N1": 8,
+    "N2": 13,
+    "W1": 200,
+    "W2": 200,
+    "Pilotis face": 0,
+    "H1": 400,
+    "H2": 150,
+    "H3": 150,
+    "W3": 150,
+    "a1": 80,
+    "W4": 150,
+    "W5": 135,
+    "E1": 200,
+    "Pilotis side": 0,
+    "T1": 20,
+    "ES1": 0.2,
+    "ES2": 0.2,
+    "S1": 200,
+    "S2": 100
+  },
+  "figures": {
+    "facePlancherTop": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 200
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 200
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 200.2
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 200.2
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 400.2
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 400.2
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 200.2
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 400.4
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 400.4
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 600.4
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 600.4
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 400.4
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 600.5999999999999
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 600.5999999999999
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 800.5999999999999
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 800.5999999999999
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 600.5999999999999
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 800.8
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 800.8
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 1000.8
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1000.8
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 800.8
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 1001
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 1001
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 1201
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1201
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1001
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 1201.1999999999998
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 1201.1999999999998
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 1401.1999999999998
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1401.1999999999998
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1201.1999999999998
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 1401.3999999999999
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 1401.3999999999999
+            },
+            {
+              "typ": 1,
+              "px": 2602.4,
+              "py": 1601.3999999999999
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1601.3999999999999
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1401.3999999999999
+            }
+          ]
+        }
+      ]
+    ],
+    "facePlancherBottom": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 200.2,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 400.2,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 400.2,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 200.2,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 200.2,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 400.4,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 600.4,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 600.4,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 400.4,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 400.4,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 600.5999999999999,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 800.5999999999999,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 800.5999999999999,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 600.5999999999999,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 600.5999999999999,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 800.8,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1000.8,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1000.8,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 800.8,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 800.8,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 1001,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1201,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1201,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 1001,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 1001,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 1201.1999999999998,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1401.1999999999998,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1401.1999999999998,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 1201.1999999999998,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 1201.1999999999998,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 1401.3999999999999,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1601.3999999999999,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1601.3999999999999,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 1401.3999999999999,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 1401.3999999999999,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 1601.6,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1801.6,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1801.6,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 1601.6,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 1601.6,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 1801.8,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2001.8,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2001.8,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 1801.8,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 1801.8,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 2002,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2202,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2202,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 2002,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 2002,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 2202.2,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2402.2,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2402.2,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 2202.2,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 2202.2,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 2402.3999999999996,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2602.3999999999996,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2602.3999999999996,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 2402.3999999999996,
+              "py": 1601.4
+            },
+            {
+              "typ": 1,
+              "px": 2402.3999999999996,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceBeam": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 200,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 350,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 350,
+              "py": 335.0692272942656
+            },
+            {
+              "typ": 1,
+              "px": 335,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 400
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 1401.4,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 1251.4,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 1251.4,
+              "py": 335.0692272942656
+            },
+            {
+              "typ": 1,
+              "px": 1266.4,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": 1401.4,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": 1401.4,
+              "py": 400
+            }
+          ]
+        }
+      ]
+    ],
+    "faceLeg": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 513.7630388891315,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 361.44904710626975,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 290.91825482288374,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 443.2322466057455,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 513.7630388891315,
+              "py": 400
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 1087.6369611108685,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 1239.9509528937301,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 1310.4817451771162,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1158.1677533942543,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1087.6369611108685,
+              "py": 400
+            }
+          ]
+        }
+      ]
+    ],
+    "faceButtress": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 513.7630388891315,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 1087.6369611108685,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 1114.0860082171382,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": 487.31399178286165,
+              "py": 250
+            },
+            {
+              "typ": 1,
+              "px": 513.7630388891315,
+              "py": 400
+            }
+          ]
+        }
+      ]
+    ],
+    "faceSide": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 200,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 300,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 300,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 2302.4,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2402.4,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2402.4,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 2302.4,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 2302.4,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_cabane_plancher_plancherTop",
+        "face": "cabane_plancher_facePlancherTop",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          420
+        ]
+      },
+      {
+        "outName": "subpax_cabane_plancher_plancherBottom",
+        "face": "cabane_plancher_facePlancherBottom",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          400
+        ]
+      },
+      {
+        "outName": "subpax_cabane_plancher_beam",
+        "face": "cabane_plancher_faceBeam",
+        "extrudeMethod": 0,
+        "length": 2602.4,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          -1.5707963267948966
+        ],
+        "translate": [
+          2602.4,
+          1601.4000000000003,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_cabane_plancher_leg1",
+        "face": "cabane_plancher_faceLeg",
+        "extrudeMethod": 0,
+        "length": 100,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          -1.5707963267948966
+        ],
+        "translate": [
+          300,
+          1601.4,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_cabane_plancher_leg2",
+        "face": "cabane_plancher_faceLeg",
+        "extrudeMethod": 0,
+        "length": 100,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          -1.5707963267948966
+        ],
+        "translate": [
+          2402.4,
+          1601.4000000000003,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_cabane_plancher_buttress1",
+        "face": "cabane_plancher_faceButtress",
+        "extrudeMethod": 0,
+        "length": 100,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          -1.5707963267948966
+        ],
+        "translate": [
+          300,
+          1601.4,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_cabane_plancher_buttress2",
+        "face": "cabane_plancher_faceButtress",
+        "extrudeMethod": 0,
+        "length": 100,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          -1.5707963267948966
+        ],
+        "translate": [
+          2402.4,
+          1601.4000000000003,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_cabane_plancher",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_cabane_plancher_plancherTop",
+          "subpax_cabane_plancher_plancherBottom",
+          "subpax_cabane_plancher_beam",
+          "subpax_cabane_plancher_leg1",
+          "subpax_cabane_plancher_leg2",
+          "subpax_cabane_plancher_buttress1",
+          "subpax_cabane_plancher_buttress2"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "cabane_plancher simTime: 0\ncabane-plancher-size: A: 1601.40 mm, B: 2602.40 mm, surface: 4.17 m2\nComparison with the golden-ratio: B/A: 1.63   100.44 %\nbeam-bevel: W5b: 15.00 mm, H3b: 85.07 mm\nbuttress-length: 626.77 mm\nleg-length: 432.62 mm\ncabane_plancher drawn successfully!\n"
+}
