@@ -18,10 +18,7 @@ const c_svgdxf = {
 	cabane_plancher: ['facePlancherTop', 'facePlancherBottom', 'faceBeam', 'faceLeg', 'faceButtress', 'faceSide'],
 	cabane: ['faceTop', 'faceFaceFront', 'faceFaceFront', 'faceFaceRoof', 'faceFaceSide', 'faceSide'],
 	door: ['faceDoor', 'faceTop', 'faceSide'],
-	reinforced_tube_A1: ['faceTopExt', 'faceTopWave', 'faceTopInt', 'faceSide'],
-	reinforced_tube_A2: ['faceTopExt', 'faceTopWave', 'faceTopInt', 'faceSide'],
-	reinforced_tube_A3: ['faceTopExt', 'faceTopWave', 'faceTopInt', 'faceSide'],
-	reinforced_tube_A4: ['faceTopExt', 'faceTopWave', 'faceTopInt', 'faceSide']
+	reinforced_tube: ['faceTopExt', 'faceTopWave', 'faceTopInt', 'faceSide']
 };
 
 function inferDesignName(instanceName) {
