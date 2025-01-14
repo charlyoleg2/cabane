@@ -40,11 +40,11 @@ function getCmd(dName, fName) {
 	rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.log.txt write compute_log`);
 	// svg, dxf
 	for (const face of c_svgdxf[desiName]) {
-		rCmd.push(`npx designix-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.svg write svg__${face}`);
-		rCmd.push(`npx designix-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.dxf write dxf__${face}`);
+		rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.svg write svg__${face}`);
+		rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.dxf write dxf__${face}`);
 	}
 	// paxJson
-	rCmd.push(`npx designix-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.pax.json write pax_all`);
+	rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.pax.json write pax_all`);
 	// OpenSCAD
 	rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.scad write scad_3d_openscad`);
 	//rCmd.push(`openscad -o refs/${dName}/${fName}_oscad.stl refs/${dName}/${fName}.scad`);
