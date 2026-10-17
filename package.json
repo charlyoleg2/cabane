@@ -37,8 +37,8 @@
 	},
 	"homepage": "https://github.com/charlyoleg2/cabane#readme",
 	"devDependencies": {
-		"desi78-cli": "^1.0.9",
-		"desi78-uis": "^1.0.9",
-		"rimraf": "^6.0.1"
+		"desi78-cli": "^1.0.25",
+		"desi78-uis": "^1.0.25",
+		"rimraf": "^6.1.3"
 	}
 }
